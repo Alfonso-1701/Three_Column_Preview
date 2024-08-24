@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Alfonso-1701/Three_Column_Preview](https://github.com/Alfonso-1701/Three_Column_Preview)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://peppy-fudge-8b5df1.netlify.app](https://peppy-fudge-8b5df1.netlify.app)
 
 ## My process
 
