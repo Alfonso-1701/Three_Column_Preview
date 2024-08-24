@@ -1,0 +1,112 @@
+:root{
+    --orange: hsl(31, 77%, 52%);
+    --cyan: hsl(184, 100%, 22%);
+    --dark_cyan: hsl(179, 100%, 13%);
+
+    /*paragraphs*/
+    --transparent_white: hsla(0, 0%, 100%, 0.75);
+    /*background, headings, buttons*/
+    --light_gray: hsl(0, 0%, 95%);
+
+    --fw-400: 400;
+    --fw-700: 700;
+}
+
+*{
+    font-size: 15px;
+}
+.shell_main{
+    width: 70%;
+    margin: 10% auto 0px auto;
+}
+.title{
+    color: var(--light_gray);
+    font-family: "big shoulders display", sans-serif;
+    font-size: 2.2rem;
+    font-weight: var(--fw-700);
+} 
+.car_type{
+    padding: 3.8rem;
+    width: 245px;
+} 
+.sedan{
+    border-radius: 10px 10px 0px 0px;
+    background-color: var(--orange);
+}
+.suv{
+    background-color: var(--cyan);
+}
+.luxury{
+    border-radius: 0px 0px 10px 10px;
+    background-color: var(--dark_cyan);
+}
+button{
+    font-family: "lexend deca", sans-serif;
+    border-radius: 25px; 
+    padding: 1rem 2rem;
+    border: none;
+    font-weight: var(--fw-400);
+}
+.info{
+    line-height: 1.8rem;
+    color: var(--transparent_white);
+    font-family: "lexend decs", sans-serif;
+    margin-bottom: 2rem;
+    font-weight: var(--fw-400);
+}
+.sedan button{
+    color: var(--orange);
+}
+.suv button{
+    color: var(--cyan);
+}
+.luxury button{ 
+    color: var(--dark_cyan);
+}
+
+button:hover{
+    color: var(--light_gray);
+    cursor: pointer;
+    border: 2px solid var(--light_gray);
+}
+.sedan button:hover{
+    background-color: var(--orange);
+}
+.suv button:hover{
+    background-color: var(--cyan);
+}
+.luxury button:hover{
+    background-color: var(--dark_cyan);
+}
+
+@media screen and (min-width: 700px) {
+    .shell_main{
+        display: flex;
+        width: 80%;
+    }
+    .car_type{
+        flex-grow: 1;
+    }
+    .info{
+        margin-bottom: 4.5rem;
+    }
+    .sedan{
+        border-radius: 10px 0px 0px 10px;
+    }
+    .luxury{
+        border-radius: 0px 10px 10px 0px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .shell_main{
+        margin-top: 8%;
+        display: flex;
+        width: 64%;
+    }
+    .car_type{
+        min-width: 212px;
+        flex-grow: 1;
+        max-width: 320px;
+    }
+}
