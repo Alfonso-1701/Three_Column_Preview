@@ -44,7 +44,6 @@ button{
     font-family: "lexend deca", sans-serif;
     border-radius: 25px; 
     padding: 1rem 2rem;
-    border: none;
     font-weight: var(--fw-400);
 }
 .info{
@@ -55,12 +54,15 @@ button{
     font-weight: var(--fw-400);
 }
 .sedan button{
+    border: 2px solid var(--orange);
     color: var(--orange);
 }
 .suv button{
+    border: 2px solid var(--cyan);
     color: var(--cyan);
 }
 .luxury button{ 
+    border: 2px solid var(--dark_cyan);
     color: var(--dark_cyan);
 }
 
