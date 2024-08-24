@@ -56,7 +56,7 @@ I have a reasonable understanding of display flex and grid. My goal to to unders
 
 ## Author
 
-- Website - [Alfonso Alvarez](https://www.linkedin.com/in/alfonso-alvarez-4223b628b/)
+- LinkedIn - [Alfonso Alvarez](https://www.linkedin.com/in/alfonso-alvarez-4223b628b/)
 - Frontend Mentor - [@Alfonso-1701](https://www.frontendmentor.io/profile/Alfonso-1701)
 
 
